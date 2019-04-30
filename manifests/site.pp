@@ -1,5 +1,5 @@
-node '172.31.22.236' {
-  file {'/root/README';
+node puppetmaster.test.org {
+  file {'/root/README':
     ensure => file,
   }
 }
