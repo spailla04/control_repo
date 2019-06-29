@@ -5,3 +5,6 @@ node puppetmaster.test.org {
     ensure => file,
   }
 }
+
+Hello How are you!!
+
